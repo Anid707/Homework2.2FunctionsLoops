@@ -168,7 +168,7 @@ function autoRent(daysNum1, rentPerDay){
     let daysNumber = Number(daysNum1);
     if (daysNumber >= 7){
         sale = 50;
-    } else if (daysNumber >= 3 && daysNumber < 7){
+    } else if (daysNumber >= 3){
         sale = 20;
     } else {
         sale = 0;
